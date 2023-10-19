@@ -1,0 +1,103 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    background-color: #090b38;
+    padding: 20px;
+    color: white;
+  }
+
+h1 {
+    color: #efefef;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+.career{
+    color: #090b38;
+    margin: 0;
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+  }
+h2 {
+    color:#090b38;
+}
+main {
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.skills {
+    padding: 5px;
+    margin: 20px;
+    list-style: none;
+}
+.skills li{
+    padding:6px;
+}
+.skills li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #C0C0C0;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.skills li:hover:before {
+    color: #090b38;
+    content: "\2714";
+}    
+
+.project-card-2 {
+    background-color: #e19913;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+  }
+
+.project-card-2 img{
+    margin: 0 200px 0 200px;
+}
+.salary {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+.spanch {
+    width: 700px;
+    height: auto;
+
+}
+.SpongeBob {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #090b38;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.Sponge {
+    color:#090b38;
+    padding: 5px;
+    margin: 20px;
+    list-style: none;
+}
+.Sponge ol li{
+    line-height: 1.8;
+}
+.Bob {
+    padding: 5px;
+    margin: 20px;
+}
+.Bob img{
+    margin-top: 20px;
+}
